@@ -10,10 +10,10 @@ ln -s notify/notify.sh /usr/local/bin/notify
 ```
 ## Direct call:
 ```sh
-notify.sh "It's time to do that thing!"
+notify "It's time to do that thing!"
 ```
 
-## Cronjobs usage example:
+## Cronjob example:
 ```sh
 # Edit the crontab
 crontab -e
