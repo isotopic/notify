@@ -25,6 +25,7 @@ Add a task to run everyday at 4:20 pm:
 ```
 
 ### Notes
-By default, Apple script notifications are automatically dismissed after some seconds.
-In order to keep them on until you dismiss them manually, set 'Alerts' in:
-`System Preferences > Notifications > Script Editor > Script Editor alert style: Alerts`
+> By default, Apple script notifications are automatically dismissed after some seconds.
+> In order to keep them on until you dismiss them manually, set 'Alerts' in:
+>
+> `System Preferences > Notifications > Script Editor > Script Editor alert style: Alerts`
