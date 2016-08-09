@@ -21,8 +21,9 @@ $ crontab -e
 
 Add a task to run everyday at 4:20 pm:
 ```sh
-20 16 * * * notify "Stop what you're doing and do that other thing instead"
+20 16 * * * /usr/local/bin/notify "Stop what you're doing and do that other thing instead"
 ```
+> Cron has a limited set of env vars so we have to pass the absolute path to the script.
 
 ### Notes
 > By default, Apple script notifications are automatically dismissed after some seconds.
