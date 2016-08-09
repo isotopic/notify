@@ -26,5 +26,5 @@ Add a task:
 
 ### Notes
 By default, Apple script notifications are automatically dismissed after some seconds.
-In order to keep them on until you dismiss them manually, go to:
-System Preferences > Notifications > Script Editor > Script Editor alert style: Alerts
+In order to keep them on until you dismiss them manually, set 'Alerts' in:
+`System Preferences > Notifications > Script Editor > Script Editor alert style: Alerts`
