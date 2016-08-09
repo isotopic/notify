@@ -6,7 +6,7 @@ Dispatch OSX notifications from bash scripts.
 $ cd /usr/local
 $ git clone https://github.com/isotopic/notify.git
 $ chmod u+x notify/notify.sh
-$ ln -s notify/notify.sh /usr/local/bin/notify
+$ ln -s /usr/local/notify/notify.sh /usr/local/bin/notify
 ```
 
 ## Direct call:
