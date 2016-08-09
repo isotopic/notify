@@ -21,7 +21,7 @@ $ crontab -e
 
 Add a task to run everyday at 4:20 pm:
 ```sh
-20 16 * * * notify "Stop what you're doing and do that other thing instead!"
+20 16 * * * notify "Stop what you're doing and do that other thing instead"
 ```
 
 ### Notes
