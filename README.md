@@ -1,5 +1,5 @@
 # Notify
-Dispatch OSX notifications from bash scripts.
+Quick and dirty way to dispatch OSX notifications from bash scripts and cronjobs.
 
 ## Install
 ```sh
