@@ -29,3 +29,7 @@ Add a task to run everyday at 4:20 pm:
 > In order to keep them on until you dismiss them manually, set 'Alerts' in:
 >
 > `System Preferences > Notifications > Script Editor > Script Editor alert style: Alerts`
+
+### Todo
+- Correctly escape special characters like exclamation marks.
+
