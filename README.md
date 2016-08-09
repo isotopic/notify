@@ -11,7 +11,7 @@ $ ln -s /usr/local/notify/notify.sh /usr/local/bin/notify
 
 ## Direct call:
 ```sh
-$ notify "It's time to do that thing!"
+$ notify "Hello world"
 ```
 
 ## Cronjob example:
