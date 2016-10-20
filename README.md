@@ -8,7 +8,7 @@ $ git clone https://github.com/isotopic/notify.git
 $ chmod u+x notify/notify.sh
 $ ln -s /usr/local/notify/notify.sh /usr/local/bin/notify
 ```
-
+> You may need to chown this directory `sudo chown YOURUSERNAME notify`
 ## Direct call:
 ```sh
 $ notify "Hello world"
