@@ -1,6 +1,12 @@
 # Notify
 Quick and dirty way to dispatch OSX notifications from bash scripts and cronjobs.
 
+## Direct call examples:
+```sh
+$ notify "Title"
+$ notify "Title" "Message here"
+```
+
 ## Install
 ```sh
 $ cd /usr/local
@@ -8,22 +14,14 @@ $ git clone https://github.com/isotopic/notify.git
 $ chmod u+x notify/notify.sh
 $ ln -s /usr/local/notify/notify.sh /usr/local/bin/notify
 ```
-> You may need to chown this directory `sudo chown YOURUSERNAME notify`
-## Direct call:
-```sh
-$ notify "Hello world"
-```
+> You may need to chown this directory with `$ sudo chown YOURUSERNAME notify`
 
-## Cronjob example:
+## Cronjob usage example:
 ```sh
 $ crontab -e
+20 16 * * * /usr/local/bin/notify "Hey!" "Stop what you're doing and do that other thing instead"
 ```
-
-Add a task to run everyday at 4:20 pm:
-```sh
-20 16 * * * /usr/local/bin/notify "Stop what you're doing and do that other thing instead"
-```
-> Cron has a limited set of env vars so we have to pass the absolute path to the script.
+> Note: Cron has a limited set of env vars so we have to pass the absolute path to the script.
 
 ### Notes
 > By default, Apple script notifications are automatically dismissed after some seconds.
@@ -33,4 +31,3 @@ Add a task to run everyday at 4:20 pm:
 
 ### Todo
 - Correctly escape special characters like exclamation marks.
-
