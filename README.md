@@ -14,7 +14,7 @@ $ git clone https://github.com/isotopic/notify.git
 $ chmod u+x notify/notify.sh
 $ ln -s /usr/local/notify/notify.sh /usr/local/bin/notify
 ```
-> You may need to chown this directory with `$ sudo chown YOURUSERNAME notify`
+> If you're not the owner of /usr/local, you may need to chown the directory with `$ sudo chown -R YOURUSERNAME notify`
 
 ## Cronjob usage example:
 ```sh
