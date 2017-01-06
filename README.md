@@ -4,7 +4,7 @@ Quick and dirty way to dispatch OSX notifications from bash scripts and cronjobs
 
 
 > Note: In Ubuntu, you can have this same functionality by using
-```notify-send "Hello" "World"```
+```notify-send "Title" "Message here"```
 
 ## Direct call examples:
 ```sh
